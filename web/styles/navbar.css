@@ -27,7 +27,7 @@ header{
 .nav_links .nav_li .nav_a:hover{
     color: #03A9F4;
 }
-.fas-fa-user{
+.fa-user{
     padding: 9px 25px;
     color: #ffffff;
     background-color: #03A9F4;
@@ -36,7 +36,7 @@ header{
     cursor: pointer;
     transition: all 0.1s;
 }
-.fas-fa-user:hover{
+.fa-user:hover{
     color: #000000;
     background-color: #4FC3F7;
 }
