@@ -8,7 +8,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 10%;
+    padding: 10px 15%;
 }
 .navbar-logo{
     width: 50px;
