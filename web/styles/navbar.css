@@ -10,7 +10,7 @@ header{
     align-items: center;
     padding: 10px 10%;
 }
-.logo{
+.navbar-logo{
     width: 50px;
     cursor: pointer;
 }
