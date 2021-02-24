@@ -10,3 +10,11 @@ html{
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
+.jugabilidad, .historia, .lanzamiento{
+    width: auto;
+    height: auto;
+    margin: 0 0 30px 0;
+    background-color: #343B3E;
+    border-radius: 100px;
+    text-align: center;
+}

@@ -4,9 +4,7 @@
     text-decoration: none;
     color: rgb(0, 0, 0);
 }
-header{
-    position: -webkit-sticky;
-    position: sticky;  
+header{ 
     top: -1px;
     display: flex;
     justify-content: space-between;
