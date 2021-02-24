@@ -19,19 +19,19 @@ html{
 }
 .jugabilidad, .historia, .lanzamiento{
     background: #1b1b1b;
-    width: 40%;
+    width: 42%;
     padding: 20px;
-    border-radius: 15px;
+    border-radius: 25px;
     text-align: justify;
 }
 .jugabilidad{
     width: 50%;
     margin: 0 auto;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 .lanzamiento{
     width: 50%;
-    margin: 20px auto;
+    margin: 40px auto;
 }
 .title-jugabilidad, .title-historia, .title-lanzamiento{
     padding-bottom: 5px;
@@ -43,11 +43,11 @@ hr{
     background: linear-gradient(90deg, rgba(101,92,255,1) 0%, rgba(217,134,255,1) 100%);
 }
 .about-jugabilidad, .about-historia, .countdown{
-    padding-top: 5px;
+    padding-top: 10px;
 }
 .history-photo{
     width: 38%;
     position: absolute;
-    left: 45%;
-    top: 36%;
+    left: 47%;
+    top: 41%;
 }
