@@ -50,3 +50,6 @@ hr{
     left: 47%;
     top: 45%;
 }
+.title-lanzamiento, .countdown{
+    text-align: center;
+}
