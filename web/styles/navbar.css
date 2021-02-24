@@ -1,8 +1,8 @@
-.nav_li, .nav_a, .fa-shopping-cart {
+.nav_li, .nav_a{
     font-weight: 500;
     font-size: 16px;
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: #f0f8ff;
 }
 header{ 
     top: -1px;
@@ -10,6 +10,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 20px 15%;
+    background: #1b1b1b;;
 }
 .navbar-logo{
     width: 50px;
@@ -23,21 +24,22 @@ header{
     padding: 0px 20px;
 }
 .nav_links .nav_li .nav_a{
-    transition: all 0.1s;
+    transition: all 0.2s;
 }
 .nav_links .nav_li .nav_a:hover{
-    color: #03A9F4;
+    background: linear-gradient(90deg, #655cff 0%, #d986ff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .fa-user{
     padding: 9px 25px;
     color: #ffffff;
-    background-color: #03A9F4;
+    background: linear-gradient(90deg, #655cff 0%, #d986ff 100%);
     border: none;
     border-radius: 50px;
     cursor: pointer;
-    transition: all 0.1s;
+    transition: all 0.2s;
 }
 .fa-user:hover{
-    color: #000000;
-    background-color: #4FC3F7;
+    background: linear-gradient(90deg, #453fae 0%, #915aab 100%);
 }
