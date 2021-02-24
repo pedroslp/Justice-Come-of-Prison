@@ -4,6 +4,8 @@
 
 html{
     height: 100%;
+    color: #f0f8ff;
+    background-color: #100F10;
 }
 *{
     margin: 0;
@@ -11,11 +13,41 @@ html{
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
+.main-content{
+    width: 70%;
+    margin: 0 auto;
+}
 .jugabilidad, .historia, .lanzamiento{
-    width: auto;
-    height: auto;
-    margin: 0 0 30px 0;
-    background-color: #343B3E;
-    border-radius: 100px;
-    text-align: center;
+    background: rgb(27, 27, 27);
+    width: 40%;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: justify;
+}
+.jugabilidad{
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.lanzamiento{
+    width: 50%;
+    margin: 20px auto;
+}
+.title-jugabilidad, .title-historia, .title-lanzamiento{
+    padding-bottom: 5px;
+    font-size: 30px;
+}
+hr{
+    border: 0; 
+    height: 2px;
+    background: linear-gradient(90deg, rgba(101,92,255,1) 0%, rgba(217,134,255,1) 100%);
+}
+.about-jugabilidad, .about-historia, .countdown{
+    padding-top: 5px;
+}
+.history-photo{
+    width: 38%;
+    position: absolute;
+    left: 45%;
+    top: 36%;
 }
