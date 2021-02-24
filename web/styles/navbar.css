@@ -12,9 +12,12 @@ header{
     padding: 20px 15%;
     background: #1b1b1b;;
 }
-.navbar-logo{
-    width: 50px;
+.fa-laptop-code{
+    font-size: 45px;
     cursor: pointer;
+    background: linear-gradient(90deg, #655cff 0%, #d986ff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .nav_links{
     list-style: none;
