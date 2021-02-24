@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;600&display=swap');
 @import url('navbar.css');
+@import url('footer.css');
 
 html{
     height: 100%;
