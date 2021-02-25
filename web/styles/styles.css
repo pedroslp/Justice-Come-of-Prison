@@ -32,7 +32,7 @@ html{
     width: 50%;
     margin: 40px auto;
 }
-.title-jugabilidad, .title-historia, .title-lanzamiento{
+.title-jugabilidad, .title-historia, .title-lanzamiento, .title-reserva{
     padding-bottom: 5px;
     font-size: 30px;
 }
@@ -50,6 +50,12 @@ hr{
     left: 47%;
     top: 45%;
 }
-.title-lanzamiento, .countdown{
+.title-lanzamiento, .countdown, .title-reserva{
     text-align: center;
+}
+.reservar{
+    background: #1b1b1b;
+    width: 100%;
+    padding: 20px;
+    border-radius: 25px;
 }
