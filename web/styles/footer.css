@@ -46,7 +46,6 @@ footer{
     text-align: center;
     font-size: 18px;
     border-radius: 6px;
-    transition: all 0.1s;
 }
 .left .content .social .social_link span:hover{
     background: linear-gradient(90deg, #453fae 0%, #915aab 100%);
@@ -100,7 +99,6 @@ footer{
     font-size: 1.0625rem;
     font-weight: 500;
     cursor: pointer;
-    transition: all .1s;
     border: none;
     border-radius: 50px;
 }

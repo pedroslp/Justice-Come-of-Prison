@@ -96,7 +96,6 @@ hr{
     font-size: 1.0625rem;
     font-weight: 500;
     cursor: pointer;
-    transition: all .1s;
     border: none;
     border-radius: 50px;
 }

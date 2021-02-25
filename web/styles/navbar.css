@@ -26,9 +26,6 @@ header{
     display: inline-block;
     padding: 0px 20px;
 }
-.nav_links .nav_li .nav_a{
-    transition: all 0.2s;
-}
 .nav_links .nav_li .nav_a:hover{
     background: linear-gradient(90deg, #655cff 0%, #d986ff 100%);
     -webkit-background-clip: text;
@@ -41,7 +38,6 @@ header{
     border: none;
     border-radius: 50px;
     cursor: pointer;
-    transition: all 0.2s;
 }
 .fa-user:hover{
     background: linear-gradient(90deg, #453fae 0%, #915aab 100%);
