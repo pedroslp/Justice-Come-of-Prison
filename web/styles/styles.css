@@ -58,4 +58,48 @@ hr{
     width: 100%;
     padding: 20px;
     border-radius: 25px;
+    margin-bottom: 40px;
+}
+.text{
+    font-size: 1.0625rem;
+    margin-bottom: 2px;
+    color: #f0f8ff;
+}
+.email-reserva, .name-reserva, .last-name-reserva{
+    text-align: center;
+    margin-top: 10px;
+}
+.input-mail, .input-name, .input-ln{
+    text-align: center;
+    width: 60%;
+    font-size: 1.0625rem;
+    background: #2b2a2a;
+    border: 1px solid #222222;
+    color: #d9d9d9;
+}
+.input-mail, .input-name, .input-ln:focus{
+    outline-color: #655cff;
+}
+.input-mail, .input-name, .input-ln{
+    height: 35px;
+}
+.btn{
+    margin-top: 20px;
+    text-align: center;
+}
+.btn .submit_btn{
+    height: 40px;
+    width: 30%;
+    border: none;
+    outline: none;
+    background: linear-gradient(90deg, #655cff 0%, #d986ff 100%);
+    font-size: 1.0625rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all .1s;
+    border: none;
+    border-radius: 50px;
+}
+.btn .submit_btn:hover{
+    background: linear-gradient(90deg, #453fae 0%, #915aab 100%);
 }
